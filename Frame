@@ -24,15 +24,15 @@ namespace RockPaperScissors
         internal static void Scores(int playerScore, int cpuScore)
         {
             Console.SetCursorPosition(56, 7);
-            Console.WriteLine("┌──────────────┐");
+            Console.WriteLine("┌────────────┐");
             Console.SetCursorPosition(56, 8);
-            Console.WriteLine("│   Scores     │");
+            Console.WriteLine("│   Scores   │");
             Console.SetCursorPosition(56, 9);
-            Console.WriteLine("│   You:       │");
+            Console.WriteLine("│   You:     │");
             Console.SetCursorPosition(56, 10);
-            Console.WriteLine("│   CPU:       │");
+            Console.WriteLine("│   CPU:     │");
             Console.SetCursorPosition(56, 11);
-            Console.WriteLine("└──────────────┘");
+            Console.WriteLine("└────────────┘");
             Console.SetCursorPosition(65, 9);
             Console.WriteLine(playerScore);
             Console.SetCursorPosition(65, 10);
